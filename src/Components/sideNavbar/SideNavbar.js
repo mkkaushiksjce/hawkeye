@@ -12,7 +12,7 @@ import useStyles from "./menuBarStyles";
 // Menu data import
 import MenuData from "./menuData.js";
 
-const MenuBar = props => {
+const SideNavbar = props => {
   const [menu, setMenu] = useState({});
   const { className, ...rest } = props;
   const classes = useStyles();
@@ -89,4 +89,4 @@ const MenuBar = props => {
     </Drawer>
   );
 };
-export default MenuBar;
+export default SideNavbar;
